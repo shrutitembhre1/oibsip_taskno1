@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(image/mountains-3523153_640.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    font-size: 20px;
+
+}
+ nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+ .logo{
+    width: 160px;
+    cursor: pointer;
+ }
+
+ nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    font-size: 25px;
+
+ }
+
+ nav ul li{
+    display: inline-block;
+    margin: 20px 20px;
+
+ }
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+ }
+  .btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .btn img{
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .content{
+    margin-top: 20%;
+    color: #fff;
+    max-width: 800px;
+
+  }
+  .content hl{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 100px;
+    margin-bottom: 50px;
+  }
+  .content p{
+    font-size: 20px;
+
+  }
+
+  .content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+  }
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
